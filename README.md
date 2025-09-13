@@ -1,4 +1,4 @@
-# Banterbox (Vite + JWT + WebSocket)
+# Banterbox
 
 ## Quick start
 
