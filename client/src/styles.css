@@ -1,0 +1,20 @@
+:root{--bg:#121212;--panel:#1f1f1f;--muted:#9b9b9b;--accent:#3f8efc;--text:#e7e7e7}
+body,html,#root{height:100%;margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text)}
+.app-root{display:flex;align-items:center;justify-content:center;height:100%}
+.container{width:480px;padding:18px;border-radius:10px}
+.title{margin:0 0 12px;font-size:22px;text-align:center;color:var(--text)}
+.login{display:flex;flex-direction:column;gap:8px}
+.label{font-size:12px;color:var(--muted)}
+.input{padding:10px;background:var(--panel);border-radius:6px;border:1px solid #2c2c2c;color:var(--text)}
+.btn{padding:10px;border:none;background:var(--accent);color:#fff;border-radius:8px;cursor:pointer}
+.error{color:#ff7070;font-size:12px}
+.chat-root{display:flex;flex-direction:column;gap:8px}
+.chat-box{height:360px;overflow:auto;background:#0f0f0f;padding:12px;border-radius:8px;border:1px solid #232323}
+.message{margin-bottom:10px;max-width:85%}
+.message.mine{margin-left:auto;text-align:right}
+.meta{font-size:11px;color:var(--muted);display:flex;gap:8px;align-items:center}
+.content{background:#141414;padding:8px 10px;border-radius:6px;margin-top:4px;border:1px solid #232323}
+.typing-row{min-height:18px;font-size:12px;color:var(--muted)}
+.composer{display:flex;gap:8px;margin-top:6px}
+.input-text{flex:1;padding:10px;background:var(--panel);border-radius:8px;border:1px solid #222;color:var(--text)}
+.btn-send{padding:10px 14px;border-radius:8px;border:none;background:var(--accent);color:white;cursor:pointer}
